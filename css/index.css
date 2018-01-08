@@ -1,0 +1,148 @@
+body{
+	margin:0;
+	background-color: rgba(0, 0, 0, 0.03);
+}
+
+.britoz-header{
+	position: sticky;
+    top: 0;
+	z-index: 1071;
+	box-shadow: 0px 0px 10px 0px #b8bec3;
+}
+
+footer{
+	height: 350px;
+	background-color:#f7f7f7;
+	margin-top: 50px;
+	padding-top: 1px;
+}
+
+.navbar-brand img{
+	height: 60px;
+    margin-top: -11px;
+}
+.left-menu{
+	width:15%;
+	min-width: 250px;
+	height: auto;
+	margin-left: 20px;
+	float:left;
+}
+
+.first-left-menu{
+	width:100%;
+	min-width: 200px; 
+	background-color: white;
+	height: 450px;
+	border:1px solid #b8b4b66e;
+}
+
+.second-left-menu{
+	height: 200px;
+	background-color: #fff;
+	margin-top:30px;
+	border:1px solid #b8b4b66e;
+	padding-left: 20px;
+}
+
+.top-menu-img{
+	width: 100%;
+	height: 40%;
+	background-image: url("../img/left-menu-img.png");
+	background-size: 100% auto;
+}
+.people-img-form{
+	height: 80px;
+	width: 80px;
+	border: 4px solid #e7eff4;
+	border-radius: 50%;
+	background-image: url("../img/people-img.jpg");
+	background-size: 100% auto;
+	margin-top: -14%;
+    margin-left: 33%;
+}
+.info-under-peopel-img{
+	text-align: center;
+}
+
+.middle-infor{
+	width: 61%;
+	min-height: 800px;
+	background-color: #fff;
+	border:1px solid #b8b4b66e;
+	float:left;
+	margin-left: 1%;
+	box-shadow: 0px 0px 10px 0px;
+	padding-top: 50px;
+}
+
+.right-infor{
+	width: 18.5%;
+	min-height: 500px;
+	background-color: #fff;
+	border:1px solid #b8b4b66e;
+	float: right;
+	margin-right: 1%;
+}
+
+.right-infor-top{
+	width: 85%;
+	height: 80px;
+	border-bottom: 1px solid #867c7c47;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.second-right-div{
+	width: 85%;
+	border-bottom: 1px solid #867c7c47;
+	height: auto;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 100px;
+}
+
+.all-infor{
+	height: 1200px;
+	width: 100%;
+}
+
+.popular-post{
+	height: 200px;
+	border-bottom: 1px solid #867c7c47;
+	padding: 5px;
+	padding-top: 20px;
+}
+
+.popular-post img{
+	width: auto;
+	height: 70%;
+	max-width: 40%;
+}
+
+.summery{
+	width: 50%;
+	float: right;
+	height: auto;
+	max-height: 100%;
+	margin-bottom: 10px;
+}
+
+.footer-title{
+	border-top: 4px solid #f00;
+    width: 47%;
+    background-color: #fff;
+    height: 100px;
+	margin-left: 25%;
+	float: left;
+	box-shadow:0px 0px 4px 0px;
+}
+
+.footer-end{
+	border-top: 1px solid #0000001f;
+	margin-top: 46px;
+	background-color: #fff;
+	height: 100%;
+}
