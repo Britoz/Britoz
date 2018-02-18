@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title> TEST </title>
-</head>
-<body>
-	<div>test</div>
-	<div>blabla</div>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Website testing</title>
+		<!-- css -->
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<!-- hard js -->
+	</head>
+	<body ng-app="index-App">
+		<!-- header -->
+		<header class="britoz-header">
+			<div ng-include="'./View/body/headerData.html'"></div>
+		</header>
+		<div class="all-infor">
+			<!-- left menu -->
+			<div ng-include="'./View/staff/leftMenu.html'"></div>
+			<!-- middle div -->
+			<div ng-include="'./View/staff/middleMenu.html'"></div>
+			<!--right div-->
+			<div ng-include="'./View/staff/rightMenu.html'"></div>
+		</div>
+		
+		<!-- footer -->
+		<footer class"britoz-footer">
+			<div class="footer-title">
+
+			</div>
+			<div class="footer-end">
+				
+			</div>
+		</footer>
+		<script src="./js/jquery-3.2.1.js"></script>
+		<script src="./js/angular.min.js"></script>
+		<script src="./Controller/module/indexApp.js"></script>
+	</body>
 </html>

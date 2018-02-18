@@ -7,7 +7,7 @@ body{
 	position: sticky;
     top: 0;
 	z-index: 1071;
-	box-shadow: 0px 0px 10px 0px #b8bec3;
+	box-shadow: 0px 0px 10px 0px #bd3609;
 }
 
 footer{
@@ -15,6 +15,7 @@ footer{
 	background-color:#f7f7f7;
 	margin-top: 50px;
 	padding-top: 1px;
+	margin-top: 30%;
 }
 
 .navbar-brand img{
@@ -48,7 +49,6 @@ footer{
 .top-menu-img{
 	width: 100%;
 	height: 40%;
-	background-image: url("../img/left-menu-img.png");
 	background-size: 100% auto;
 }
 .people-img-form{
@@ -73,11 +73,48 @@ footer{
 	float:left;
 	margin-left: 1%;
 	box-shadow: 0px 0px 10px 0px;
-	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.middleTop{
+	height: 300px;
+	background-color: #bd3609;
+	margin-top: 10px;
+	color:white;
+	padding: 35px;
+}
+
+.middleTopTitle{
+	font-family: "Courier New";
+    padding-top: 35px;
+}
+
+.staff_facea{
+	border: 4px solid #eae4e4;
+    height: 68%;
+    width: 15%;
+    border-radius: 50%;
+    margin: 3%;
+    background-image: url(../img/vinh.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.staff-new{
+	width: 80%;
+    height: 200px;
+    border-left: 1px solid #efeaea;
+    border-bottom: 1px solid #efeaea;
+    float: right;
+    margin-right: 5%;
+	box-shadow: 0px 2px 5px 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .right-infor{
-	width: 18.5%;
+	width: 20%;
 	min-height: 500px;
 	background-color: #fff;
 	border:1px solid #b8b4b66e;
@@ -131,7 +168,7 @@ footer{
 }
 
 .footer-title{
-	border-top: 4px solid #f00;
+	border-top: 4px solid #bd3609;
     width: 47%;
     background-color: #fff;
     height: 100px;
@@ -143,6 +180,40 @@ footer{
 .footer-end{
 	border-top: 1px solid #0000001f;
 	margin-top: 46px;
-	background-color: #fff;
+	background-color: #bd3609;
 	height: 100%;
+}
+
+.button_design{
+	background-color: #0000;
+	border-radius: 40%;
+    padding: 10px;
+}
+
+.span_design{
+	border-radius: 50%;
+    font-size: 28px;
+}
+.Staff_infor_first{
+	font-family: "Courier New";
+	margin-bottom: 40%;
+}
+.left_infor{
+	float:left;
+	padding: 6%;
+	width:50%;
+}
+
+.right_infor{
+	padding: 6%;
+    width: 50%;
+    float: right;
+}
+.Staff_infor_second{
+	font-family: "Courier New";
+}
+.second_left_infor{
+	float:left;
+	padding: 6%;
+	width:50%;
 }

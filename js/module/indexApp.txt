@@ -1,0 +1,47 @@
+var app = angular.module('index-App',[]);
+
+    app.controller('middleInfor-ctrl', function($scope){
+        $scope.middleData = value;
+    });
+
+    app.controller('secondRightDiv-ctrl', function($scope){
+        $scope.popular_post = popular_post;
+    });
+
+    var value = [
+        {
+          "Name"    : "Alfreds Futterkiste",
+          "Country" : "Germany"
+        },
+        {
+          "Name" : "Berglunds snabbköp",
+          "Country" : "Sweden"
+        },
+        {
+          "Name" : "Centro comercial Moctezuma",
+          "Country" : "Mexico"
+        },
+        {
+          "Name" : "Ernst Handel",
+          "Country" : "Austria"
+        },
+        {
+          "Name" : "The Vinh Ly",
+          "Country" : "Viet Nam"
+        }
+      ];
+
+    var popular_post = [
+        {
+            "src"   : "./img/ant.jpg",
+            "data"  : "Hello, this is an ant"
+        },
+        {
+            "src"   : "./img/beautiful-trees.jpg",
+            "data"  : "Hello, beautiful trees"
+        },
+        {
+            "src"   : "./img/sakura.jpg",
+            "data"  : "Hello, this is Sakura"
+        }
+    ];

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Testing angularjs code</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/angular_changing.css">
+
+    <script src="./js/angular.min.js"></script>
+    <script src="./js/module/myApp.js"></script>
+
+
+</head>
+<body ng-app="myApp" style="background-color:{{myCol}}" ng-class="changeBodyBackground">
+
+    <div ng-controller="myCtrl">
+        Please enter your name:
+        <p>Name : <input type="text" ng-model="name"></p>
+        <h1>Student name: {{person.lastname + ' ' + person.firstname}}</h1>
+        <h2>Id: {{person.id}}</h2>
+        <h2>Major: {{person.major}}</h2>
+        <h2>Unit: {{person.units[0]}}</h2>
+        <p ng-bind="name"></p>     
+    </div>
+
+    
+    <p>Change the style of the body's background</p>
+    <select ng-model="changeBodyBackground">
+        <option value="sky">Sky</option>
+        <option value="tomato">Tomato</option>
+    </select>
+
+    <p>Please enter the kind of color to change the background color</p>
+    <input type="text" ng-model="myCol" value="myCol">
+
+    <div ng-controller="secondCtrl">
+        <p>Hello {{name}}</p>
+    </div>
+
+    <p>this is the repeat value by using ng-class and ng-repeat</p>
+    <table ng-controller="myCtrl">
+        <tr ng-repeat="x in people" ng-class-even="'striped'">
+            <td>{{x.Name}}</td>
+            <td>{{x.Country}}</td>
+        </tr>
+    </table>
+</body>
+
+</html>
